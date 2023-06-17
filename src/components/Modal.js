@@ -14,9 +14,9 @@ const Modal = ({ show, onClose, children }) => {
   }
 
   return (
-    <div className="model-overlay" onClick={handleCloseModal} ref={modalRef}>
-      <div className="model-dialog" onClick={onClose}>
-        <button className="model-close" onClick={onClose}>
+    <div className=".modal-overlay" onClick={handleCloseModal} ref={modalRef}>
+      <div className="modal-dialog" onClick={onClose}>
+        <button className=".modal-close" onClick={onClose}>
           Close
         </button>
         <div className="modal-content">{children}</div>
